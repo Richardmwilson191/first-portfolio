@@ -1,0 +1,15 @@
+@media (min-width: 500px) {
+  display: flex;
+  height: 100%;
+}
+#landing {
+  
+}
+
+img {
+  width: 100%;
+}
+
+.tech {
+  width: 5rem;
+}
