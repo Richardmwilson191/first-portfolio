@@ -19,9 +19,10 @@
   <title>Richard M.Wilson</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top ">
+  <nav class="navbar navbar-expand-md sticky-top ">
+      <!-- navbar-light bg-light -->
     <div class="container-fluid">
-      <a class="navbar=brand" href="#"> <img src="img/RMWlo5.png" alt="R.M.Wilson"></a>
+      <!-- <a class="navbar=brand" href="#"> <img id="logo" src="img/RMWlo5.png" alt="R.M.Wilson"></a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,13 +33,10 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li classs="nav-item">
-            <a class="nav-link" href="portfolio">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li classs="nav-item">
-            <a class="nav-link" href="about">About</a>
-          </li>
-          <li classs="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li classs="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -48,24 +46,55 @@
     </div>
   </nav>
   <!-- Home -->
-  <div>
-    <img id="landing" src="img/digital-dreams-1155366.jpg" alt="home picture">
-    <p>Welcome to my portfolio website, after going through this site hopefully you have
-      learned enough about me to have a good idea of what I can do. I hope you have a pleasant 
-      and easy browsing experienced while you are here. Check out my blog, I hope you find it a 
-      pleasant and informative read.
-    </p>
+  <div class="container-fluid">
+    <img id="landing_img" src="img/digital-dreams-1155366.jpg" alt="home picture">
+    <h6 id="landing_text">Hi, Im Richard Wilson, a full-stack developer with a passion for backend and programming logic. Welcome to my portfolio website, after going through this site hopefully you have learned enough about me to have a good idea of what I can do.
+    </h6>
   </div>
   <!--Portfolio-->
-  <div>
-    <h1 id="portfolio">Portfolio</h1>
+  <div id="portfolio" class="container-fluid">
+    <hr>
+    <h1>Portfolio</h1>
     <p>I am currently enrolled at a university and pursuing a B.Sc in Computer Science
     </p>
   </div>
-  <!--Technologies-->
-  <div>
-    <h3>Technologies</h3>
+  <div class="container-fluid">
     <hr>
+    <h3>Projects</h3>
+    <div class="card">
+      <img src="img/RMWlo5.png" alt="">
+      <div>
+        <h5><em>Project 1</em></h5>
+        <P>jtsjkkdklsllskjjsjjjjkkkkkkkkkkk</P>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/RMWlo5.png" alt="">
+      <div>
+        <h5><em>Project 1</em></h5>
+        <P>jtsjkkdklsllskjjsjjjjkkkkkkkkkkk</P>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/RMWlo5.png" alt="">
+      <div>
+        <h5><em>Project 1</em></h5>
+        <P>jtsjkkdklsllskjjsjjjjkkkkkkkkkkk</P>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/RMWlo5.png" alt="">
+      <div>
+        <h5><em>Project 1</em></h5>
+        <P>jtsjkkdklsllskjjsjjjjkkkkkkkkkkk</P>
+      </div>
+    </div>
+  </div>
+  
+  <!--Technologies-->
+  <div id="technologies" class="container-fluid">
+    <hr>
+    <h3>Technologies</h3>
     <img class="tech" src="img/javascript-1.svg" alt="JavaScript">
     <img class="tech" src="img/python-4.svg" alt="Python">
     <img class="tech" src="img/html5.svg" alt="HTML5">
@@ -76,38 +105,32 @@
     <hr>
   </div>
   <!--About-->
-  <div>
+  <div class="container-fluid">
     <h3 id="about">About</h3>
-    <p>Hi, my name is Richard Wilson, a JavaScript and Python Developer. Though I am 
-      pursuing a B.Sc in Computer Science right now, I had not decided on becoming a 
-      software developer at the begining of my degree program. Commiting myself to 
-      become a software developer has been one of the best decision I have made in
-      my life. It has been an enlightening experience, ruthlessly exposing my weaknesses
-      and faults. For this I can only be gratefull, as it has also shown me areas where 
-      I can improve myself as a person as well as a productive member of society. Most 
-      importantly it has rekindled my love of learning, solving problems and my dream of 
-      building something amazing. I love to challenge myself mentally and physically, so 
-      when I'm not programming I like to challenge my body in the gym. I believe that life 
-      is about balance, and balance brings longevity.  
+    <p>Hi, my name is Richard Wilson, a JavaScript and Python Developer. I am curently pursuing a B.Sc in Computer Science, commiting myself to becoming a software developer has been one of the best decision I have made in my life. It has been an enlightening experience, ruthlessly exposing my weaknesses and faults. For this I can only be gratefull, as it has also inspired me to improve myself as a person as well as improve society through software solutions. Most importantly it has rekindled my love of learning, solving problems and my dream of building something amazing. I love to challenge myself mentally and physically, so when I'm not programming I like to challenge my body in the gym. I believe that life is about balance, and that balance brings longevity.  
     </p>
+    <hr>
   </div>
   <!--Blog-->
   <!--Contact-->
-  <div>
+  <div class="container-fluid">
     <h3 id="contact">Contact</h3>
-    <p>Get in touch if you would like to work with me or even just to have a discussion.
-      I am always open to meeting new people and learning new things.
+    <p>Get in touch if you would like to work with me or even just to have a discussion. I am always open to meeting new people and learning new things.
     </p>
     <form action="" method="GET">
       <input type="text" name="name" placeholder="Enter name">
       <input type="text" name="email" placeholder="Enter email">
       <input type="text" name="message" placeholder="Enter message">
     </form>
-    <a href="https://www.facebook.com/profile.php?id=1660132348&ref=bookmarks"><i class="fab fa-2x fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-2x fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-2x fa-linkedin"></i></a>
-    <a href="#"><i class="fab fa-2x fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-2x fa-github"></i></a>
+    <hr>
+
+    <a class="social" href="https://www.facebook.com/profile.php?id=1660132348&ref=bookmarks" target="_blank"><i class="fab fa-2x fa-facebook"></i></a>
+    <a class="social" href="https://www.instagram.com/richrock191/" 
+    target="_blank"><i class="fab fa-2x fa-instagram"></i></a>
+    <a class="social" href="https://www.linkedin.com/in/richard-wilson-b1a33a149/" 
+    target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+    <a  class="social" href="https://twitter.com/richrock191" target="_blank"><i class="fab fa-2x fa-twitter"></i></a>
+    <a class="social" href="https://github.com/Richardmwilson191" target="_blank"><i class="fab fa-2x fa-github"></i></a>
   </div>
 </div>
 <!--Footer-->
