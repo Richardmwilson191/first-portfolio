@@ -63,6 +63,21 @@
   width: 5rem;
   margin: 2rem;
 }
+form>input {
+  display: block;
+  width: 25.05rem;
+}
+
+input {
+  border: 1px solid #999;
+  border-radius: 0;
+  
+  -webkits-appearance: none;
+}
+
+form>button {
+  display: block;
+}
 
 .social {
   margin: 2rem;
