@@ -20,12 +20,14 @@
 #landing_img {
   padding: 1rem;
   width: 50%;
-  float: left;
+  display: block;
+  margin: auto;
 }
 
 #landing_text {
   padding: 4rem;
   text-align: center;
+  display: inline-block;
 }
 
 #portfolio {
